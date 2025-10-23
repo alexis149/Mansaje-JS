@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atencion Al Cliente|api</title>
+
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('D0RIQyabijmu0fa1L')</script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+      <div class="block">
+        <div class="field">
+          <h2>Enviame tu Opinion </h2>
+          </div>
+          <div class="field">
+            <label for="email_id">Email</label>
+            <input type="text" name="email_id" id="email_id">
+          </div>
+          <div class="field">
+          <label for="from_name">Nombre</label>
+          <input type="text" name="from_name" id="from_name">
+        </div>
+        <div class="field">
+          <label for="message">Tu Opinion</label>
+          <input type="text" name="message" id="message">
+        </div>
+        <div class="field">
+        <input type="submit" id="button" value="Enviar Comunicado" >
+        </div>
+      </div>
+      </form>
+    <script src="app.js"></script>
+</body>
+</html>
